@@ -81,7 +81,7 @@
             this.mnuMainHelp});
             this.mnuMain.Location = new System.Drawing.Point(0, 0);
             this.mnuMain.Name = "mnuMain";
-            this.mnuMain.Size = new System.Drawing.Size(796, 24);
+            this.mnuMain.Size = new System.Drawing.Size(470, 24);
             this.mnuMain.TabIndex = 0;
             this.mnuMain.Text = "menuStrip1";
             // 
@@ -155,7 +155,7 @@
             // sptMain.Panel2
             // 
             this.sptMain.Panel2.Controls.Add(this.grpRelocation);
-            this.sptMain.Size = new System.Drawing.Size(796, 416);
+            this.sptMain.Size = new System.Drawing.Size(470, 416);
             this.sptMain.SplitterDistance = 228;
             this.sptMain.TabIndex = 1;
             // 
@@ -165,7 +165,7 @@
             this.grpPage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpPage.Location = new System.Drawing.Point(0, 0);
             this.grpPage.Name = "grpPage";
-            this.grpPage.Size = new System.Drawing.Size(228, 416);
+            this.grpPage.Size = new System.Drawing.Size(250, 416);
             this.grpPage.TabIndex = 0;
             this.grpPage.TabStop = false;
             this.grpPage.Text = "Page";
@@ -185,7 +185,7 @@
             this.lvPage.Location = new System.Drawing.Point(3, 16);
             this.lvPage.MultiSelect = false;
             this.lvPage.Name = "lvPage";
-            this.lvPage.Size = new System.Drawing.Size(222, 397);
+            this.lvPage.Size = new System.Drawing.Size(260, 397);
             this.lvPage.TabIndex = 0;
             this.lvPage.UseCompatibleStateImageBehavior = false;
             this.lvPage.View = System.Windows.Forms.View.Details;
@@ -194,17 +194,17 @@
             // colPageRVA
             // 
             this.colPageRVA.Text = "Page RVA";
-            this.colPageRVA.Width = 75;
+            this.colPageRVA.Width = 90;
             // 
             // colBlockSize
             // 
             this.colBlockSize.Text = "Block Size";
-            this.colBlockSize.Width = 75;
+            this.colBlockSize.Width = 90;
             // 
             // colCount
             // 
             this.colCount.Text = "# items";
-            this.colCount.Width = 50;
+            this.colCount.Width = 60;
             // 
             // cmnuPages
             // 
@@ -242,7 +242,7 @@
             this.grpRelocation.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpRelocation.Location = new System.Drawing.Point(0, 0);
             this.grpRelocation.Name = "grpRelocation";
-            this.grpRelocation.Size = new System.Drawing.Size(564, 416);
+            this.grpRelocation.Size = new System.Drawing.Size(216, 416);
             this.grpRelocation.TabIndex = 0;
             this.grpRelocation.TabStop = false;
             this.grpRelocation.Text = "Relocation";
@@ -261,7 +261,7 @@
             this.lvRelocation.Location = new System.Drawing.Point(3, 16);
             this.lvRelocation.MultiSelect = false;
             this.lvRelocation.Name = "lvRelocation";
-            this.lvRelocation.Size = new System.Drawing.Size(558, 397);
+            this.lvRelocation.Size = new System.Drawing.Size(210, 397);
             this.lvRelocation.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.lvRelocation.TabIndex = 0;
             this.lvRelocation.UseCompatibleStateImageBehavior = false;
@@ -270,12 +270,12 @@
             // colOffset
             // 
             this.colOffset.Text = "Offset";
-            this.colOffset.Width = 70;
+            this.colOffset.Width = 90;
             // 
             // colType
             // 
             this.colType.Text = "Type";
-            this.colType.Width = 220;
+            this.colType.Width = 100;
             // 
             // cmnuRelocations
             // 
@@ -324,7 +324,7 @@
             this.staPbSize});
             this.staInfo.Location = new System.Drawing.Point(0, 440);
             this.staInfo.Name = "staInfo";
-            this.staInfo.Size = new System.Drawing.Size(796, 22);
+            this.staInfo.Size = new System.Drawing.Size(470, 22);
             this.staInfo.TabIndex = 1;
             this.staInfo.Text = "statusStrip1";
             // 
@@ -358,7 +358,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(796, 462);
+            this.ClientSize = new System.Drawing.Size(470, 462);
             this.Controls.Add(this.sptMain);
             this.Controls.Add(this.mnuMain);
             this.Controls.Add(this.staInfo);

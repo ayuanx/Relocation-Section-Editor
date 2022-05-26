@@ -81,7 +81,7 @@
             this.mnuMainHelp});
             this.mnuMain.Location = new System.Drawing.Point(0, 0);
             this.mnuMain.Name = "mnuMain";
-            this.mnuMain.Size = new System.Drawing.Size(472, 24);
+            this.mnuMain.Size = new System.Drawing.Size(502, 24);
             this.mnuMain.TabIndex = 0;
             this.mnuMain.Text = "menuStrip1";
             // 
@@ -155,8 +155,8 @@
             // sptMain.Panel2
             // 
             this.sptMain.Panel2.Controls.Add(this.grpRelocation);
-            this.sptMain.Size = new System.Drawing.Size(472, 416);
-            this.sptMain.SplitterDistance = 256;
+            this.sptMain.Size = new System.Drawing.Size(502, 416);
+            this.sptMain.SplitterDistance = 296;
             this.sptMain.TabIndex = 1;
             // 
             // grpPage
@@ -165,7 +165,7 @@
             this.grpPage.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpPage.Location = new System.Drawing.Point(0, 0);
             this.grpPage.Name = "grpPage";
-            this.grpPage.Size = new System.Drawing.Size(256, 416);
+            this.grpPage.Size = new System.Drawing.Size(296, 416);
             this.grpPage.TabIndex = 0;
             this.grpPage.TabStop = false;
             this.grpPage.Text = "Page";
@@ -185,7 +185,7 @@
             this.lvPage.Location = new System.Drawing.Point(3, 16);
             this.lvPage.MultiSelect = false;
             this.lvPage.Name = "lvPage";
-            this.lvPage.Size = new System.Drawing.Size(250, 397);
+            this.lvPage.Size = new System.Drawing.Size(290, 397);
             this.lvPage.TabIndex = 0;
             this.lvPage.UseCompatibleStateImageBehavior = false;
             this.lvPage.View = System.Windows.Forms.View.Details;
@@ -242,7 +242,7 @@
             this.grpRelocation.Dock = System.Windows.Forms.DockStyle.Fill;
             this.grpRelocation.Location = new System.Drawing.Point(0, 0);
             this.grpRelocation.Name = "grpRelocation";
-            this.grpRelocation.Size = new System.Drawing.Size(216, 416);
+            this.grpRelocation.Size = new System.Drawing.Size(206, 416);
             this.grpRelocation.TabIndex = 0;
             this.grpRelocation.TabStop = false;
             this.grpRelocation.Text = "Relocation";
@@ -261,7 +261,7 @@
             this.lvRelocation.Location = new System.Drawing.Point(3, 16);
             this.lvRelocation.MultiSelect = false;
             this.lvRelocation.Name = "lvRelocation";
-            this.lvRelocation.Size = new System.Drawing.Size(210, 397);
+            this.lvRelocation.Size = new System.Drawing.Size(200, 397);
             this.lvRelocation.Sorting = System.Windows.Forms.SortOrder.Ascending;
             this.lvRelocation.TabIndex = 0;
             this.lvRelocation.UseCompatibleStateImageBehavior = false;
@@ -324,7 +324,7 @@
             this.staPbSize});
             this.staInfo.Location = new System.Drawing.Point(0, 440);
             this.staInfo.Name = "staInfo";
-            this.staInfo.Size = new System.Drawing.Size(472, 22);
+            this.staInfo.Size = new System.Drawing.Size(502, 22);
             this.staInfo.TabIndex = 1;
             this.staInfo.Text = "statusStrip1";
             // 
@@ -358,7 +358,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(472, 462);
+            this.ClientSize = new System.Drawing.Size(502, 462);
             this.Controls.Add(this.sptMain);
             this.Controls.Add(this.mnuMain);
             this.Controls.Add(this.staInfo);
